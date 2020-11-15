@@ -22,7 +22,6 @@ public class Tets1 {
         String second = list.get(1);
         System.out.println(second);
 
-
         List<Number> list1 = new ArrayList<Number>();
         list1.add(1);
         list1.add(2);
