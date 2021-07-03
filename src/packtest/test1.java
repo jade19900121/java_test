@@ -1,6 +1,6 @@
 package packtest;
 
-import animals.*;
+import Interface_test.*;
 
 /**
  * @author fangjiulin

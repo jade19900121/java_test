@@ -1,4 +1,4 @@
-package animals;
+package Interface_test;
 
 /**
  * @author fangjiulin

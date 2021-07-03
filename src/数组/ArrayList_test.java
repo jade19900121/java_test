@@ -8,7 +8,7 @@ import java.util.Collections;
  * @author fangjiulin
  * @date 2020/11/14 19:01
  */
-public class RunoobTest {
+public class ArrayList_test {
     public static void main(String[] args) {
         ArrayList<String> sites = new ArrayList<String>();
         sites.add("Runoob");
@@ -17,8 +17,14 @@ public class RunoobTest {
         sites.add("Weibo");
         Collections.sort(sites);
         System.out.println(sites);
-//        for (String i : sites) {
-//            System.out.println(i);
-//        }
+        //遍历
+        for (String i : sites) {
+            System.out.println(i);
+        }
+        System.out.println("\n");
+        //遍历
+        for (int i = 0;i<sites.size();i++){
+            System.out.println(sites.get(i));
+        }
     }
 }

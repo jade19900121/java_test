@@ -1,7 +1,5 @@
 package 反射;
-
 import 泛型.Student;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
@@ -11,18 +9,15 @@ import java.lang.reflect.Modifier;
  */
 public class Test2 {
     public static void main(String[] args) throws Exception {
-
         Student st = new Student("fang",31);
-
-
         Class stu = st.getClass();
 //        System.out.println(stu.getField("number"));
 //        System.out.println(stu.getDeclaredField("name"));
 //        System.out.println(stu.getDeclaredField("age"));
 
         Field f = stu.getDeclaredField("age");
-//        System.out.println(f.getName());
-//        System.out.println(f.getType());
+        System.out.println(f.getName());
+        System.out.println(f.getType());
 //        int m = f.getModifiers();
 //        System.out.println(f.getModifiers());
 //        System.out.println(Modifier.isPrivate(m));
@@ -30,7 +25,7 @@ public class Test2 {
         Object value = f.get(st);
         System.out.println(value);
         f.set(st,30);
-        f.set(st,40);
+        //f.set(st,40);
         System.out.println(st.getAge());
 
     }

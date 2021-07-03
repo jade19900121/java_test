@@ -10,22 +10,20 @@ import 泛型.Student;
 public class Test1 {
     public static void main(String[] args) {
         Class cls1 = String.class;
-        //System.out.println(cls1);
-
+        System.out.println(cls1);
         String s = "Hello";
         Class cls2 = s.getClass();
-        //System.out.println(cls2);
-
+        System.out.println(cls2);
         boolean sameClass = cls1 == cls2; // true
 
         Person a = new Person("fang",100);
         Class cls3 = a.getClass();
-        //System.out.println(cls3);
-
+        System.out.println(cls3);
 
         Student b = new Student("fang",30);
         Class cls4 = b.getClass();
         System.out.println(cls4);
+        System.out.println("\n");
         System.out.println(cls4.getName());
         System.out.println(cls4.getMethods());
         System.out.println(cls4.getPackage());
