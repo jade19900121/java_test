@@ -1,4 +1,4 @@
-package 枚举;
+package Enum_Test;
 
 /**
  * @author fangjiulin
@@ -7,8 +7,6 @@ package 枚举;
 public class Test6 {
     public static void main(String[] args) {
         Color c1 = Color.RED;
-
-
         System.out.println(c1);
         c1.colorInfo();
     }

@@ -14,7 +14,7 @@ public class Dog extends Animal {
     public Dog(String name, int id, int age,String sex) {
         super(name, id);
         this.age = age;
-        this.sex = sex;
+        //this.sex = sex;
     }
 
     @Override
@@ -27,6 +27,14 @@ public class Dog extends Animal {
     public void sleep() {
         //super.sleep();
         System.out.println("I am Dog,I can sleep");
+    }
+
+
+    //父类的控制符是默认，子类重写可以是默认，protected，public，但不能是private
+    @Override
+    protected void introduction1() {
+        //super.introduction1();
+        System.out.println("哈哈哈，大家好我是:" + this.name);
     }
 
     //父类的方法修饰为了final，子类不能重写
@@ -57,5 +65,6 @@ public class Dog extends Animal {
         test1.run();
         test1.eat();
         test1.sleep();
+        test1.introduction1();
     }
 }

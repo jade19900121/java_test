@@ -5,6 +5,8 @@ package Interface_test;
  * @date 2021/7/3 11:47
  */
 public class Cat implements Animal{
+    private int number;
+
     @Override
     public void eat() {
         System.out.println("I am Cat,I can eat");
@@ -19,10 +21,29 @@ public class Cat implements Animal{
         System.out.println("I am Cat,I can Run");
     }
 
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
     public static void main(String[] args) {
-        Cat a = new Cat();
+        Animal a = new Cat();
         a.eat();
         a.sleep();
-        a.run();
+        System.out.println(a.id);
+        System.out.println("\n");
+
+        Cat b = new Cat();
+        b.eat();
+        b.sleep();
+        b.run();
+        b.setNumber(b.id);
+        System.out.println(b.getNumber());
     }
+
+
+
 }

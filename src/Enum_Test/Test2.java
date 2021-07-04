@@ -1,4 +1,4 @@
-package 枚举;
+package Enum_Test;
 
 /**
  * @author fangjiulin

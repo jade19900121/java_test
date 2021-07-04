@@ -22,7 +22,7 @@ public class ArrayList_test {
             System.out.println(i);
         }
         System.out.println("\n");
-        //遍历
+        //遍历1111
         for (int i = 0;i<sites.size();i++){
             System.out.println(sites.get(i));
         }
