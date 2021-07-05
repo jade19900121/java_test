@@ -20,34 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Class_Test/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Class_Test/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Interface_test/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Interface_test/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Interface_test/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Interface_test/Pig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Run.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/hello_world.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/packtest/test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/异常/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/异常/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/异常/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/异常/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/异常/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/异常/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/异常/Test5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/ArrayList_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/HashSet_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/Iterator_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/LinkedList_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/RunoobTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/RunoobTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/RunoobTest3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/RunoobTest4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/数组/hashMap_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/注解/Check.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/注解/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数组/ArrayList_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/ArrayList_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625408134488</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="(1)添加最新代码">
+      <created>1625409674982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625409674982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,22 +201,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1625401093237" />
-    <state width="1237" height="226" key="GridCell.Tab.0.bottom" timestamp="1625409395961">
+    <state x="121" y="51" key="DiffContextDialog" timestamp="1625409691358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625409395961" />
-    <state width="1237" height="226" key="GridCell.Tab.0.center" timestamp="1625409395961">
+    <state x="121" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1625409691358" />
+    <state width="1237" height="226" key="GridCell.Tab.0.bottom" timestamp="1625409705673">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625409395961" />
-    <state width="1237" height="226" key="GridCell.Tab.0.left" timestamp="1625409395961">
+    <state width="1237" height="226" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625409705673" />
+    <state width="1237" height="226" key="GridCell.Tab.0.center" timestamp="1625409705673">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625409395961" />
-    <state width="1237" height="226" key="GridCell.Tab.0.right" timestamp="1625409395961">
+    <state width="1237" height="226" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625409705673" />
+    <state width="1237" height="226" key="GridCell.Tab.0.left" timestamp="1625409705672">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="226" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625409395961" />
+    <state width="1237" height="226" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625409705672" />
+    <state width="1237" height="226" key="GridCell.Tab.0.right" timestamp="1625409705673">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="226" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625409705673" />
     <state width="1237" height="49" key="GridCell.Tab.1.bottom" timestamp="1625401120270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -257,10 +241,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-19" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625310615338" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1625408254730">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1625409698083">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625408254730" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625409698083" />
     <state x="339" y="72" width="603" height="536" key="find.popup" timestamp="1625366074223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
