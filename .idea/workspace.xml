@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
-      <change afterPath="$PROJECT_DIR$/src/循环/SwitchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/运算符/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java_test/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_test/Run.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.SwitchTest">
+  <component name="RunManager" selected="Application.Singleton">
     <configuration name="ArrayList_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="数组.ArrayList_test" />
       <module name="java_test" />
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="序列化.SerializeDemo" />
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.Singleton" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="序列化.*" />
+          <option name="PATTERN" value="设计模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Singleton" />
         <item itemvalue="Application.SwitchTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ArrayList_test" />
         <item itemvalue="Application.DeserializeDemo" />
-        <item itemvalue="Application.SerializeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625491053874</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="(1)添加最新代码">
+      <created>1625567337748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625567337748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,26 +225,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1625409691358" />
-    <state width="1864" height="280" key="GridCell.Tab.0.bottom" timestamp="1625562447694">
+    <state width="1864" height="256" key="GridCell.Tab.0.bottom" timestamp="1625568779579">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="226" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625409705673" />
-    <state width="1864" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625562447694" />
-    <state width="1864" height="280" key="GridCell.Tab.0.center" timestamp="1625562447694">
+    <state width="1864" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
+    <state width="1864" height="256" key="GridCell.Tab.0.center" timestamp="1625568779579">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="226" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625409705673" />
-    <state width="1864" height="280" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625562447694" />
-    <state width="1864" height="280" key="GridCell.Tab.0.left" timestamp="1625562447694">
+    <state width="1864" height="256" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
+    <state width="1864" height="256" key="GridCell.Tab.0.left" timestamp="1625568779579">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="226" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625409705672" />
-    <state width="1864" height="280" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625562447694" />
-    <state width="1864" height="280" key="GridCell.Tab.0.right" timestamp="1625562447694">
+    <state width="1864" height="256" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
+    <state width="1864" height="256" key="GridCell.Tab.0.right" timestamp="1625568779579">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="226" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625409705673" />
-    <state width="1864" height="280" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625562447694" />
+    <state width="1864" height="256" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
     <state width="1237" height="49" key="GridCell.Tab.1.bottom" timestamp="1625401120270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -260,10 +265,11 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-19" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625310615338" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1625491210610">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="350" y="112" key="Vcs.Push.Dialog.v2" timestamp="1625567343016">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625491210610" />
+    <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1625567343016" />
     <state x="339" y="72" width="603" height="536" key="find.popup" timestamp="1625366074223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
