@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
-      <change afterPath="$PROJECT_DIR$/src/设计模式/HsLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/设计模式/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/设计模式/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encapsulation_Test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encapsulation_Test/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test_1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -56,12 +60,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Log">
+  <component name="RunManager" selected="Application.PersonTest">
     <configuration name="HsLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="设计模式.HsLog" />
       <module name="java_test" />
@@ -81,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="设计模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Encapsulation_Test.PersonTest" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Encapsulation_Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="运算符.Test" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="运算符.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.Log" />
         <item itemvalue="Application.Singleton" />
         <item itemvalue="Application.HsLog" />
         <item itemvalue="Application.SwitchTest" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -226,26 +231,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1625409691358" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1625585677218">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1625625913791">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1625625913791" />
+    <state width="1864" height="102" key="GridCell.Tab.0.bottom" timestamp="1625625916130">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
-    <state width="1864" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1625585677218">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1864" height="102" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
+    <state width="1864" height="102" key="GridCell.Tab.0.center" timestamp="1625625916130">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
-    <state width="1864" height="256" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1625585677218">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1864" height="102" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
+    <state width="1864" height="102" key="GridCell.Tab.0.left" timestamp="1625625916130">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
-    <state width="1864" height="256" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1625585677218">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1864" height="102" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
+    <state width="1864" height="102" key="GridCell.Tab.0.right" timestamp="1625625916130">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
-    <state width="1864" height="256" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625568779579" />
+    <state width="1864" height="102" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
     <state width="1237" height="357" key="GridCell.Tab.1.bottom" timestamp="1625584728765">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -271,10 +280,11 @@
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1625491210610" />
     <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1625567343016" />
-    <state x="339" y="72" width="603" height="536" key="find.popup" timestamp="1625366074223">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="509" y="109" width="905" height="814" key="find.popup" timestamp="1625646828967">
+      <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="339" y="72" width="603" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1625366074223" />
+    <state x="509" y="109" width="905" height="814" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1625646828967" />
     <state x="423" y="86" key="refactoring.ChangeSignatureDialog" timestamp="1625311317025">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

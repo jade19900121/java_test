@@ -13,6 +13,7 @@ public class PersonTest {
 //        System.out.println(a.name);
 
         Person a = new Person();
+        System.out.println(a);
         a.setAge(30);
         a.setName("fangjl");
         System.out.println(a.getAge());
