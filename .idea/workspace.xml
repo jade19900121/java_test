@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
+      <change afterPath="$PROJECT_DIR$/src/EqualsTest/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/拷贝/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/拷贝/DeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/拷贝/Face.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/拷贝/Head.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/拷贝/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/拷贝/ShallowCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/装箱拆箱/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encapsulation_Test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encapsulation_Test/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,26 +73,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.PersonTest">
-    <configuration name="HsLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.HsLog" />
+  <component name="RunManager" selected="Application.Test1 (1)">
+    <configuration name="DeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="拷贝.DeepCopy" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="设计模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.Log" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="设计模式.*" />
+          <option name="PATTERN" value="拷贝.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="设计模式.Singleton" />
+    <configuration name="ShallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="拷贝.ShallowCopy" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="设计模式.*" />
+          <option name="PATTERN" value="拷贝.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="循环.SwitchTest" />
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="装箱拆箱.Test1" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="循环.*" />
+          <option name="PATTERN" value="装箱拆箱.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EqualsTest.Test1" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EqualsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.DeepCopy" />
+        <item itemvalue="Application.ShallowCopy" />
         <item itemvalue="Application.PersonTest" />
-        <item itemvalue="Application.Log" />
-        <item itemvalue="Application.Singleton" />
-        <item itemvalue="Application.HsLog" />
-        <item itemvalue="Application.SwitchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,33 +234,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1625401093237" />
-    <state x="121" y="51" key="DiffContextDialog" timestamp="1625409691358">
+    <state x="121" y="51" width="1024" height="572" key="DiffContextDialog" timestamp="1625667618394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="51" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1625409691358" />
+    <state x="121" y="51" width="1024" height="572" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1625667618394" />
     <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1625625913791">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1625625913791" />
-    <state width="1864" height="102" key="GridCell.Tab.0.bottom" timestamp="1625625916130">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1237" height="178" key="GridCell.Tab.0.bottom" timestamp="1625760489190">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
+    <state width="1237" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
     <state width="1864" height="102" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1864" height="102" key="GridCell.Tab.0.center" timestamp="1625625916130">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1237" height="178" key="GridCell.Tab.0.center" timestamp="1625760489190">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
+    <state width="1237" height="178" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
     <state width="1864" height="102" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1864" height="102" key="GridCell.Tab.0.left" timestamp="1625625916130">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1237" height="178" key="GridCell.Tab.0.left" timestamp="1625760489190">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
+    <state width="1237" height="178" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
     <state width="1864" height="102" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1864" height="102" key="GridCell.Tab.0.right" timestamp="1625625916130">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="1237" height="178" key="GridCell.Tab.0.right" timestamp="1625760489190">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625585677218" />
+    <state width="1237" height="178" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
     <state width="1864" height="102" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
     <state width="1237" height="357" key="GridCell.Tab.1.bottom" timestamp="1625584728765">
       <screen x="0" y="0" width="1280" height="680" />
