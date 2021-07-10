@@ -20,15 +20,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
-      <change afterPath="$PROJECT_DIR$/src/EqualsTest/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/拷贝/Body.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/拷贝/DeepCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/拷贝/Face.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/拷贝/Head.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/拷贝/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/拷贝/ShallowCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/装箱拆箱/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/工厂方法/AudiCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/工厂方法/AudiCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/工厂方法/BMWCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/工厂方法/BMWCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/工厂方法/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/工厂方法/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/工厂方法/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/AudiCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/AudiMiniCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/AudiSUVCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/BMWCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/BMWMiniCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/BMWSUVCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/MiniCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/SUVCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/抽象工厂/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/静态/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/静态/ComputerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/静态/ComputerFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/静态/PersonComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/静态/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/工厂/静态/WorkComputer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract_Test/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象类/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract_Test/AnimalTets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象类/AnimalTets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract_Test/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象类/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract_Test/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象类/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encapsulation_Test/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/封装/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encapsulation_Test/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/封装/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum_Test/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/枚举/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum_Test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/枚举/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum_Test/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/枚举/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum_Test/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/枚举/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum_Test/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/枚举/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum_Test/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/枚举/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enum_Test/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/枚举/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface_test/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/接口/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface_test/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/接口/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface_test/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/接口/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface_test/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/接口/Pig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/packtest/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packtest/test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +71,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,33 +107,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
-  <component name="RunManager" selected="Application.Test1 (1)">
-    <configuration name="DeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="拷贝.DeepCopy" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="拷贝.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Encapsulation_Test.PersonTest" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Encapsulation_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="设计模式.工厂" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test1 (3)">
     <configuration name="ShallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="拷贝.ShallowCopy" />
       <module name="java_test" />
@@ -126,6 +139,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.工厂.工厂方法.Test1" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.工厂.工厂方法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.工厂.抽象工厂.Test1" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.工厂.抽象工厂.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EqualsTest.Test1" />
       <module name="java_test" />
@@ -139,13 +178,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.工厂.静态.Test1" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.工厂.静态.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1 (3)" />
+        <item itemvalue="Application.Test1 (2)" />
+        <item itemvalue="Application.Test1 (2)" />
         <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.DeepCopy" />
-        <item itemvalue="Application.ShallowCopy" />
-        <item itemvalue="Application.PersonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,13 +274,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="141" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1625404711813" />
-    <state x="440" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1625325363285">
+    <state x="440" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1625914754046">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="440" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1625325363285" />
-    <state x="678" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1625563795340">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="440" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1625914754046" />
+    <state x="452" y="252" width="443" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1625901850397">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="452" y="252" width="443" height="220" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1625901850397" />
     <state x="678" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1032@0.0.1920.1032" timestamp="1625563795340" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625401093237">
       <screen x="0" y="0" width="1280" height="680" />
@@ -242,25 +295,25 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1625625913791" />
-    <state width="1237" height="178" key="GridCell.Tab.0.bottom" timestamp="1625760489190">
+    <state width="1237" height="212" key="GridCell.Tab.0.bottom" timestamp="1625916065228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
+    <state width="1237" height="212" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1625916065228" />
     <state width="1864" height="102" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="178" key="GridCell.Tab.0.center" timestamp="1625760489190">
+    <state width="1237" height="212" key="GridCell.Tab.0.center" timestamp="1625916065228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
+    <state width="1237" height="212" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1625916065228" />
     <state width="1864" height="102" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="178" key="GridCell.Tab.0.left" timestamp="1625760489190">
+    <state width="1237" height="212" key="GridCell.Tab.0.left" timestamp="1625916065228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
+    <state width="1237" height="212" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1625916065228" />
     <state width="1864" height="102" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="178" key="GridCell.Tab.0.right" timestamp="1625760489190">
+    <state width="1237" height="212" key="GridCell.Tab.0.right" timestamp="1625916065228">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="178" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625760489190" />
+    <state width="1237" height="212" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1625916065228" />
     <state width="1864" height="102" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
     <state width="1237" height="357" key="GridCell.Tab.1.bottom" timestamp="1625584728765">
       <screen x="0" y="0" width="1280" height="680" />

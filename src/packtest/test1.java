@@ -1,6 +1,6 @@
 package packtest;
 
-import Interface_test.*;
+import 接口.*;
 
 /**
  * @author fangjiulin
