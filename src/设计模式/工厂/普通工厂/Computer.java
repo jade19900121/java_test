@@ -1,4 +1,4 @@
-package 设计模式.工厂.静态;
+package 设计模式.工厂.普通工厂;
 
 /**
  * @author fangjiulin

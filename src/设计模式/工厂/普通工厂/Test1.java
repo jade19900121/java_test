@@ -1,8 +1,4 @@
-package 设计模式.工厂.静态;
-
-import 设计模式.工厂.静态.Computer;
-import 设计模式.工厂.静态.ComputerFactory;
-import 设计模式.工厂.静态.ComputerFactory2;
+package 设计模式.工厂.普通工厂;
 
 /**
  * @author fangjiulin

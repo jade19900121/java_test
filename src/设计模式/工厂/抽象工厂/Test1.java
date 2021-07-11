@@ -10,5 +10,8 @@ public class Test1 {
         CarFactory factory = new BMWCarFactory();
         MiniCar car = factory.produceMiniCar();
         car.showInfo();
+
+        SUVCar car1 = factory.produceSUVCar();
+        car1.showInfo();
     }
 }

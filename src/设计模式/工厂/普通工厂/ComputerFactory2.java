@@ -1,11 +1,11 @@
-package 设计模式.工厂.静态;
+package 设计模式.工厂.普通工厂;
 
 /**
  * @author fangjiulin
- * @date 2021/7/10 14:58
+ * @date 2021/7/10 15:24
  */
-public class ComputerFactory {
-    public Computer produce(String type) {
+public class ComputerFactory2 {
+    public static Computer produce(String type) {
         Computer computer = null;
         if (type == "personComputer") {
             computer = new PersonComputer();
