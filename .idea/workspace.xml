@@ -20,16 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
-      <change afterPath="$PROJECT_DIR$/src/JavaBean_Test/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBean_Test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数组/EnumMap_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/数组/Queue_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/枚举/Weekday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/枚举/WeekdayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/枚举/WeekdayTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/加密算法/HashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/DeadLock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/TongBuMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/多线程/XianChenTongBu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数组/ArrayList_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/ArrayList_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/数组/hashMap_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/hashMap_test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +81,13 @@
       <recent name="设计模式.工厂" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Queue_test">
-    <configuration name="ArrayList_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.ArrayList_test" />
+  <component name="RunManager" selected="Application.DeadLock2">
+    <configuration name="DeadLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="多线程.DeadLock2" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumMap_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.EnumMap_test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="多线程.Test" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.Queue_test" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="多线程.Test5" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekdayTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="枚举.WeekdayTest1" />
+    <configuration name="TongBuMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="多线程.TongBuMethod" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="枚举.*" />
+          <option name="PATTERN" value="多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hashMap_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="数组.hashMap_test" />
+    <configuration name="XianChenTongBu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="多线程.XianChenTongBu" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="数组.*" />
+          <option name="PATTERN" value="多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Queue_test" />
-        <item itemvalue="Application.ArrayList_test" />
-        <item itemvalue="Application.hashMap_test" />
-        <item itemvalue="Application.EnumMap_test" />
-        <item itemvalue="Application.WeekdayTest1" />
+        <item itemvalue="Application.DeadLock2" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TongBuMethod" />
+        <item itemvalue="Application.XianChenTongBu" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626004278140</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="(1)添加最新代码">
+      <created>1626016769177</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626016769177</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,50 +272,50 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1625625913791" />
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1626016461196">
+    <state width="1237" height="253" key="GridCell.Tab.0.bottom" timestamp="1626163303799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626016461196" />
+    <state width="1237" height="253" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626163303799" />
     <state width="1864" height="102" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1626016461196">
+    <state width="1237" height="253" key="GridCell.Tab.0.center" timestamp="1626163303798">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626016461196" />
+    <state width="1237" height="253" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626163303798" />
     <state width="1864" height="102" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1626016461196">
+    <state width="1237" height="253" key="GridCell.Tab.0.left" timestamp="1626163303798">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626016461196" />
+    <state width="1237" height="253" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626163303798" />
     <state width="1864" height="102" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1626016461196">
+    <state width="1237" height="253" key="GridCell.Tab.0.right" timestamp="1626163303799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626016461196" />
+    <state width="1237" height="253" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626163303799" />
     <state width="1864" height="102" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="214" key="GridCell.Tab.1.bottom" timestamp="1626016122381">
+    <state width="1237" height="268" key="GridCell.Tab.1.bottom" timestamp="1626151678931">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626016122381" />
-    <state width="1237" height="214" key="GridCell.Tab.1.center" timestamp="1626016122381">
+    <state width="1237" height="268" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626151678931" />
+    <state width="1237" height="268" key="GridCell.Tab.1.center" timestamp="1626151678931">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626016122381" />
-    <state width="1237" height="214" key="GridCell.Tab.1.left" timestamp="1626016122381">
+    <state width="1237" height="268" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626151678931" />
+    <state width="1237" height="268" key="GridCell.Tab.1.left" timestamp="1626151678931">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626016122381" />
-    <state width="1237" height="214" key="GridCell.Tab.1.right" timestamp="1626016122381">
+    <state width="1237" height="268" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626151678931" />
+    <state width="1237" height="268" key="GridCell.Tab.1.right" timestamp="1626151678931">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="214" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626016122381" />
+    <state width="1237" height="268" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626151678931" />
     <state x="-19" y="0" key="SettingsEditor" timestamp="1625310615338">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-19" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625310615338" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626004852785">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626016772446">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626004852785" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626016772446" />
     <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1625567343016" />
     <state x="509" y="109" width="905" height="814" key="find.popup" timestamp="1625646828967">
       <screen x="0" y="0" width="1920" height="1032" />
