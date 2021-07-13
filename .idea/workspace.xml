@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
-      <change afterPath="$PROJECT_DIR$/src/JDBC/MySQLDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程/TaskQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程/线程池/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/多线程/线程池/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scanner_Test/ScannerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Scanner_Test/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/数组/hashMap_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/数组/hashMap_test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -68,27 +68,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="设计模式.工厂" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MySQLDemo">
-    <configuration name="DeadLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.DeadLock2" />
-      <module name="java_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="多线程.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.hashMap_test">
     <configuration name="MySQLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.MySQLDemo" />
       <module name="java_test" />
@@ -102,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.TaskQueue" />
+    <configuration name="ScannerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scanner_Test.ScannerDemo" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="多线程.*" />
+          <option name="PATTERN" value="Scanner_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scanner_Test.Test1" />
+      <module name="java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Scanner_Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="多线程.Test5" />
+    <configuration name="hashMap_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组.hashMap_test" />
       <module name="java_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="多线程.*" />
+          <option name="PATTERN" value="数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hashMap_test" />
+        <item itemvalue="Application.Test1 (1)" />
+        <item itemvalue="Application.ScannerDemo" />
         <item itemvalue="Application.MySQLDemo" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.TaskQueue" />
-        <item itemvalue="Application.DeadLock2" />
-        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626163365984</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="(1)添加最新代码">
+      <created>1626182565664</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1626182565664</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,50 +281,50 @@
     </state>
     <state x="457" y="138" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1626175508716" />
     <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1625625913791" />
-    <state width="1237" height="247" key="GridCell.Tab.0.bottom" timestamp="1626182449598">
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1626186573075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626182449598" />
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626186573075" />
     <state width="1864" height="102" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="247" key="GridCell.Tab.0.center" timestamp="1626182449598">
+    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1626186573075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626182449598" />
+    <state width="1237" height="194" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626186573075" />
     <state width="1864" height="102" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="247" key="GridCell.Tab.0.left" timestamp="1626182449597">
+    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1626186573075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626182449597" />
+    <state width="1237" height="194" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626186573075" />
     <state width="1864" height="102" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="247" key="GridCell.Tab.0.right" timestamp="1626182449598">
+    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1626186573075">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626182449598" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626186573075" />
     <state width="1864" height="102" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1625625916130" />
-    <state width="1237" height="267" key="GridCell.Tab.1.bottom" timestamp="1626177125226">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1626186077495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626177125226" />
-    <state width="1237" height="267" key="GridCell.Tab.1.center" timestamp="1626177125226">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626186077495" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1626186077494">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626177125226" />
-    <state width="1237" height="267" key="GridCell.Tab.1.left" timestamp="1626177125226">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626186077494" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1626186077494">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626177125226" />
-    <state width="1237" height="267" key="GridCell.Tab.1.right" timestamp="1626177125226">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626186077494" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1626186077494">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626177125226" />
-    <state x="-19" y="0" key="SettingsEditor" timestamp="1625310615338">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626186077494" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1626186316649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="-19" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625310615338" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626163369553">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626186316649" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626182572562">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626163369553" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626182572562" />
     <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1625567343016" />
     <state x="509" y="109" width="905" height="814" key="find.popup" timestamp="1625646828967">
       <screen x="0" y="0" width="1920" height="1032" />

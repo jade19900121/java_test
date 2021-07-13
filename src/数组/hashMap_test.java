@@ -27,8 +27,10 @@ public class hashMap_test {
         Sites2.put("wangwu", "Taobao");
         System.out.println("Sites2的值是:" + Sites2);
         System.out.println(Sites2.get("lisi"));
+        //System.out.println(Sites2.hashCode());
         //键值不存在，结果为null
         System.out.println(Sites2.get("aaa"));
+
 
         //遍历
         for (String i : Sites2.keySet()) {
@@ -39,5 +41,6 @@ public class hashMap_test {
             //输出每一个value
             System.out.print(value + ", ");
         }
+
     }
 }
