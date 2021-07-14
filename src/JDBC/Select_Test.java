@@ -4,14 +4,10 @@ import java.sql.*;
 
 /**
  * @author fangjiulin
- * @date 2021/7/13 18:09
+ * @date 2021/7/14 17:16
  */
-public class MySQLDemo {
-    //需要将mysql-connector-java-5.1.44.jar放到C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext中
-    /*第一步，通过Connection提供的createStatement()方法创建一个Statement对象，用于执行一个查询；
-      第二步，执行Statement对象提供的executeQuery("SELECT * FROM students")并传入SQL语句，
-      执行查询并获得返回的结果集，使用ResultSet来引用这个结果集；
-      第三步，反复调用ResultSet的next()方法并读取每一行结果。* */
+public class Select_Test {
+    //使用Java对数据库进行操作时，必须使用PreparedStatement，严禁任何通过参数拼字符串的代码！
     private static String DRIVER = "com.mysql.jdbc.Driver";
     private static String USERNAME = "root";
     private static String PASSWORD = "123456";
@@ -19,17 +15,21 @@ public class MySQLDemo {
             "serverTimezone=UTC&useUnicode=true&characterEncoding=utf8";
 
     public static void main(String[] args) {
-        Statement stmt = null;
+        //Statement stmt = null;
         Connection connection = null;
+        PreparedStatement ps = null;
         try {
             Class.forName(DRIVER);
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
             //System.out.println("1111");
             // 执行查询
-            System.out.println(" 实例化Statement对象...");
-            stmt = connection.createStatement();
+            //System.out.println(" 实例化Statement对象...");
+            /*stmt = connection.createStatement();
             String sql = "select * from USER where id = '18854'";
-            ResultSet rs = stmt.executeQuery(sql);
+            ResultSet rs = stmt.executeQuery(sql);*/
+            ps = connection.prepareStatement("SELECT id, name, age FROM User WHERE id=?");
+            ps.setObject(1, 18854); // 注意：索引从1开始
+            ResultSet rs = ps.executeQuery();
             // 展开结果集数据库
             while (rs.next()) {
                 // 通过字段检索
@@ -45,7 +45,8 @@ public class MySQLDemo {
             }
             // 完成后关闭
             rs.close();
-            stmt.close();
+            //stmt.close();
+            ps.close();
             connection.close();
 
         } catch (Exception e) {
@@ -53,8 +54,10 @@ public class MySQLDemo {
         } finally {
             // 关闭资源
             try {
-                if (stmt != null) stmt.close();
+                if (ps != null)
+                    ps.close();
             } catch (SQLException se2) {
+
             }// 什么都不做
             try {
                 if (connection != null) connection.close();
