@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码">
-      <change afterPath="$PROJECT_DIR$/src/JDBC/Batch_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f6121813-aa89-42fa-8d51-60c38ea3c556" name="Default Changelist" comment="(1)添加最新代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626258760480</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="(1)添加最新代码">
+      <created>1626274883439</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626274883439</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,10 +289,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-19" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1625310615338" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626258765823">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626274889788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626258765823" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1626274889788" />
     <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1625567343016" />
     <state x="509" y="109" width="905" height="814" key="find.popup" timestamp="1625646828967">
       <screen x="0" y="0" width="1920" height="1032" />
