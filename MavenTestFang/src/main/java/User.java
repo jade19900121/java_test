@@ -1,5 +1,3 @@
-package JDBC;
-
 import org.omg.CORBA.PRIVATE_MEMBER;
 
 /**
