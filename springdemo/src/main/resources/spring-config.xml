@@ -7,4 +7,6 @@
         <property name="name" value="fangjiulin"/>
         <property name="age" value="30"/>
     </bean>
+    <bean id="someService" class="com.example.fangtest.service.ISomeServiceImpl" init-method="initAfter"
+          destroy-method="perDestroy"/>
 </beans>
