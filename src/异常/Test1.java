@@ -8,9 +8,13 @@ public class Test1 {
     public static void main(String[] args) {
         try {
             process1();
+            return;
         } catch (Exception e) {
             e.printStackTrace();
+            return;
             //System.out.println(e.getMessage());
+        }finally {
+            return;
         }
     }
 
