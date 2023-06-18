@@ -19,7 +19,7 @@ public class Test1 {
 
     public static void main(String[] args) {
         Test1 a = new Test1();
-        a.n = -1;
+        a.n = 1000;
         System.out.println(a.n);
     }
 }

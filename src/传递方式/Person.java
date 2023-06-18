@@ -6,6 +6,9 @@ package 传递方式;
  * @date 2021/7/9 0009 下午 12:02
  */
 public class Person {
+    /**
+     * 名称
+     */
     private String name;
     private int age;
 

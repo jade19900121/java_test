@@ -1,2 +1,10 @@
 /out
 out
+.idea
+.gradle/
+MavenTestFang/target/
+springdemo/.gitignore
+/.idea/uiDesigner.xml
+/.idea/misc.xml
+/.idea/workspace.xml
+/.idea
