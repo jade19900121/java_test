@@ -17,7 +17,7 @@ public class Test {
         System.out.println(++j);
         System.out.println(j);
 
-        //逻辑运算符
+        //逻辑运算符11
         boolean a = true;
         boolean b = false;
         System.out.println("a && b = " + (a && b));
